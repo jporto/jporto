@@ -2,9 +2,235 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>teste</title>
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-material-design.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/ripples.min.css">
+
+  <!-- Meus scripts -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <title>Julio Porto - Analista e Desenvolvedor Full-Stack</title>
 </head>
 <body>
-  <img src="https://farm8.staticflickr.com/7222/26944026692_946c76b97b_b.jpg" alt="huehue">
+
+  <!-- navbar -->
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+
+      <!-- navbar header / brand -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#">Julio Porto <span class="small">Analista e Desenvolvedor Full-Stack</span></a>
+      </div>
+
+      <!-- menu -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">o que sei fazer</a></li>
+          <li><a href="#">trabalhos relevantes</a></li>
+          <li><a href="#">tecnologias</a></li>
+          <li><a href="#">contato</a></li>
+        </ul>
+      </div>
+
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- /navbar -->
+
+  <!-- header -->
+  <section id="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6 text-center">
+          <h1>Como posso ajudar seu negócio?</h1>
+          <p class="lead">Possuo experiência em diversos ramos do mercado</p>
+          <button class="btn btn-large">Ver Mais</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /header -->
+
+  <!-- o que sei fazer -->
+  <section id="services">
+    <div class="container">
+      <!-- title -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h1>O que sei fazer?</h1>
+            <p class="lead">Atuando desde 2008, possuo vasta experiência em desenvolvimentos web. Veja abaixo algumas das soluções que posso oferecer!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/responsive.png" width="100%" alt="">
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Blogs e Sites responsivos</li>
+            <li>loja virtual</li>
+            <li>controle de estoque</li>
+            <li>sistema de atendimento ao publico</li>
+            <li>sistema de call center</li>
+            <li>extração de dados e indicadores</li>
+            <li>captura e streaming de video</li>
+            <li>integração com sistemas de pagamento online</li>
+            <li>auditoria de sistemas</li>
+            <li>outras soluções para empresas de pequeno e médio porte</li>
+          </ul>
+                
+          <ul>
+            <li>coisas que não sei fazer! :(</li>
+            <li>desenvolvimento mobile</li>
+            <li>design grafico  </li>
+          </ul>     
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- trabalho -->
+  <section id="works">
+    <div class="container">
+      <!-- title -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h1>Trabalhos Relevantes</h1>
+            <p class="lead">Conheça alguns dos meus principais trabalhos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="well infobox">
+            <h2>sony</h2>
+            <p>Desenvolvimento de um sistema de Call Center utilizado pela Sony Mobile na América Latina, utilizando PHP, MySQL e JS.</p>
+            <p class="text-right">
+              <span class="badge"><i class="material-icons">person</i> 5</span>
+              <span class="badge"><i class="material-icons">schedule</i> 2 meses</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="well infobox">
+            <h2>wheaton</h2>
+            <p>Participei de diversos projetos, como a migração do sistema legado (EBS Oracle) para um sistema desenvolvido em PHP, MySQL, JS e CodeIgniter.</p>
+            <p>Criei também uma série de indicadores de produção, participando desde a mineração e transformação dos dados, até a criação de relatórios e gráficos em JS / JqPLOT.</p>
+            <p class="text-right">
+              <span class="badge"><i class="material-icons">person</i> 12</span>
+              <span class="badge"><i class="material-icons">schedule</i> 1 ano</span>
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="well infobox">
+            <h2>movida <span class="small">2012</span></h2>
+            <p>Foi criado um sistema que gerencia toda a parte operacional da empresa, contemplando controle de frotas, estoque de peças, sistema de reservas, atendimento ao cliente, controle financeiro e diversos indicdores.</p>
+            <p> Sistema inédito no Brasil até então.</p>
+            <p class="text-right">
+              <span class="badge"><i class="material-icons">person</i> 3</span>
+              <span class="badge"><i class="material-icons">schedule</i> 1 ano</span>
+            </p>
+          </div>         
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- tecnologias -->
+  <section id="tecnologies">
+    <div class="container">
+      <!-- title -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h1>Tecnologias</h1>
+            <p class="lead">Sempre opto por trabalhar com ferramentas gratuitas, que oferecem excelente desempenho com o design mais atual do mercado. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            HTML5
+            <div class="card-img">
+              <img src="img/html5.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            CSS3
+            <div class="card-img">
+              <img src="img/css3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            JS
+            <div class="card-img">
+              <img src="img/js.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            Bootstrap
+            <div class="card-img">
+              <img src="img/bootstrap.png" alt="">
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="row">  
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            Less
+            <div class="card-img">
+              <img src="img/less.png" alt="">
+            </div>
+          </div>
+        </div>             
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            PHP
+            <div class="card-img">
+              <img src="img/php.png" alt="">
+            </div>
+          </div>
+        </div>    
+        <div class="col-md-3 col-xs-6 text-center">
+          <div class="well card">
+            MySQL
+            <div class="card-img">
+              <img src="img/mysql.png" alt="">
+            </div>
+          </div>
+        </div>                               
+      </div>
+    </div>
+  </section>
+
+
+
 </body>
 </html>
